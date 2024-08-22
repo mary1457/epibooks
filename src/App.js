@@ -7,7 +7,7 @@ import MyNav from './components/MyNav'
 import Welcome from './components/Welcome'
 import AllTheBooks from './components/AllTheBooks'
 import MyFooter from './components/MyFooter'
-
+import { Container } from 'react-bootstrap'
 function App() {
   return (
     <>
@@ -16,7 +16,9 @@ function App() {
       </header>
       <main> 
         <Welcome />
+        <Container fluid className="p-0">
         <AllTheBooks />
+        </Container>
       </main>
       <footer>
       <MyFooter />
