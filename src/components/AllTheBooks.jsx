@@ -4,7 +4,7 @@ import { Card, Col, Row , Button} from 'react-bootstrap'
 import fantasy from '../books/fantasy.json'
 const AllTheBooks = () => {
   return (
-    <Row className="g-2">
+    <Row className="g-2  mt-3">
       {fantasy.map((book) => {
         return (
           <Col xs={12} md={6} lg={4} xl={2} key={book.asin}>
