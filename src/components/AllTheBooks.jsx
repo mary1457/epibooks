@@ -1,7 +1,7 @@
 
 
 import { Card, Col, Row , Button} from 'react-bootstrap'
-import fantasy from '../books/fantasy.json'
+import fantasy from '../data/fantasy.json'
 const AllTheBooks = () => {
   return (
     <Row className="g-2  mt-3">
