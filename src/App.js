@@ -16,7 +16,7 @@ function App() {
       </header>
       <main> 
         <Welcome />
-        <Container fluid className="p-0">
+        <Container fluid >
         <AllTheBooks />
         </Container>
       </main>
